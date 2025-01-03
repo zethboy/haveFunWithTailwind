@@ -3,8 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
   <title>Document</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <script> 
+  tailwind.config = {
+    theme : {
+      extend : {
+        fontFamily:{
+          Poppins : ['Poppins']
+        },
+      },
+    },
+  };
+  </script>
+  
   <style type="text/tailwindcss">
     
   </style>
@@ -25,6 +40,18 @@
     <!-- <div class="max-w-xs min-h-screen">kotak w</div> -->
   </section>
 
-  
+  <section class="mb-10 font-Poppins">
+    <h2 class="mb-4">
+      bleajar tailwind
+    </h2>
+    <div class="mb-4">
+      by yogi, 3 januari 2024
+    </div>
+    <p class="mb-4">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti quasi optio tenetur aliquam blanditiis, expedita praesentium molestias quisquam iste dolores, nobis debitis excepturi voluptatum dicta tempora vero, maiores maxime ratione.
+    </p>
+    <p class="mb-8">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos amet esse atque reprehenderit ullam. Minima nisi ad maiores totam repellat?</p>
+  </section>
+
 </body>
 </html>
