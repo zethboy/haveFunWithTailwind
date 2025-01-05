@@ -19,6 +19,9 @@
         colors : {
           gueBanget : '#c0ffee'
         },
+        animation : {
+          'spin-slow' : 'spin 3s linear infinite'
+        }
       },
     },
   };
@@ -107,7 +110,23 @@
     </form>
   </div>
 
-  <div class="mb-98 "></div>
+  <hr class="my-20">
+
+  <div class="w-40 h-40 my-32
+  bg-sky-500 mx-auto rounded-lg shadow-lg hover:scale-150 hover:rotate-45 hover:translate-x-16 hover:bg-pink-600 origin-bottom-right transition"></div>
+  <div class="w-40 h-40 bg-pink-700 mx-auto mb-32 rounded-b-lg shadow-lg mt-20 group">
+    <div class="w-full h-full bg-sky-600 rounded-lg duration-1000 shadow-lg group-hover:rotate-180 origin-top-right transition"></div>
+  </div>
+
+  <div class="w-40 h-40 my-32
+  bg-sky-500 mx-auto rounded-lg shadow-lg animate-bounce"></div> 
+
+  <div class="w-40 h-40 my-32
+  bg-sky-500 mx-auto rounded-lg shadow-lg animate-spin-slow "></div>
+
+
+
+  <div class="mb-96"></div>
 
   <script>
     const checkbox = document.querySelector('#toggle')
